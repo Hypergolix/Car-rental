@@ -1,0 +1,15 @@
+export enum Make {
+  Ford,
+  Volvo,
+  Bmw,
+  Mercedes,
+  Toyota,
+  Volkswagen,
+  Tesla,
+  Fiat,
+  Kia,
+  Peugeot,
+  Seat,
+  Skoda,
+  Hyundai,
+}

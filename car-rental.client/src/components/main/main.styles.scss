@@ -1,0 +1,77 @@
+.hero{
+  height: calc(100vh - 60px);
+  background-image: url('../../assets/T-Cross_suv.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-inside{
+  width: 80vw;
+  h1{
+    text-align: left;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .booking-form{
+    background-color: rgba(255, 255, 255, 0.767);
+    height: 160px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    // align-items: center;
+    // padding-right: 40px;
+    justify-content: center;
+    .booking-inputs{
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-evenly;
+      .booking-section{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        height: 30px;
+        h2{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .button{
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    // background-color: rgb(47, 0, 255);
+    border: 2px solid #000;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-top: 20px;
+    // justify-self: flex-end;
+    // align-self: flex-end;
+    p{
+      line-height: 30px;
+      color: #000;
+    }
+    &:hover{
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}
+
+.from-location{
+  input{
+    background-color: transparent;
+    border: 1px solid #000;
+    height: 20px;
+  }
+}
+

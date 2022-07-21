@@ -1,0 +1,94 @@
+.carcard-main{
+  display: flex;
+  width: 70%;
+  min-width: 600px;
+  height: 140px;
+  border-radius: 20px;
+  // background-color: aqua;
+  margin-bottom: 20px;
+  border: 1px solid rgb(178, 178, 178);
+  box-sizing: border-box;
+  padding-right: 10px;
+  .image{
+    height: 100%;
+    aspect-ratio: 1.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .text-middle{
+    min-width: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    p{
+      margin-left: 10px;
+      font-size: 12px;
+      color: rgb(107, 107, 107);
+    }
+    h2{
+      margin: 10px;
+    }
+    .city{
+      margin-bottom: 10px;
+    }
+  }
+  .text-right{
+    margin-left: auto;
+    min-width: 120px;
+    .price{
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    h2{
+      margin: 6px 10px 50px 10px;
+    }
+    .button{
+      // margin-left: 50px;
+      width: 70px;
+      height: 30px;
+      border-radius: 30px;
+      // background-color: rgb(47, 0, 255);
+      border: 2px solid #000;
+      // margin-right: 10px;
+      text-decoration: none;
+      p{
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
+        color: #000;
+        width: 100%;
+      }
+      &:hover{
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.carview-main{
+  margin-left: 20px;
+  h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+
+.row-main{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.right-bar{
+  height: 100%;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(178, 178, 178);
+  // margin-top: 100px;
+}
